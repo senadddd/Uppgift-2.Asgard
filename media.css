@@ -1,0 +1,52 @@
+@media (max-width: 414px) {
+   
+    .container {
+      display:grid;
+      grid-template-rows: 30% 70%;
+      grid-template-columns: none;
+    
+      
+    }
+  
+    .left {
+      height: 10rem;
+
+    }
+  
+    .user-form{
+     margin:0;
+     padding: 2rem;
+     margin-top: 5rem;
+     width: 100%;
+    }
+  
+  
+  }
+  
+  @media (min-width: 1024px) {
+    
+   .left{
+       height: 100%;
+
+   }
+
+   .container{
+       height: 100vh;
+   }
+
+   .user-form{
+   margin-left: 2rem;
+   }
+       
+       
+   }
+  
+   
+  @media (min-width: 768px) {
+    
+    .container{
+        height: 100vh;
+    }
+  
+
+  }
